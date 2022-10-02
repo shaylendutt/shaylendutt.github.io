@@ -4,7 +4,8 @@
 
 
 /* Import a font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500;1,900&display=swap');
+
 
 
 /* Set the background color for my page: */
@@ -12,43 +13,55 @@
 /* Book on colour = Joseph Albers - Interaction of Colour */
 
 body{
-    background-color: rgb(200,200,200);
+    background-color: rgb(134, 163, 209);
  }
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
-h1, h3, p{
+h1, p{
     color:rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
 }
     
+h3{
+    color:rgb(181, 7, 25);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
 .myWeek1{
     margin: auto;
     max-width: 600px;
-    background-color: bisque;
+    background-color: rgb(134, 163, 209);
 
       
     border-width: 3px;
-    border-style: solid;
+    border-style: none;
     border-radius: 10px;
-    border-color: pink;
+    border-color: rgb(134, 163, 209);
 }
 
 
 /* Set the apperance of the class, chart */
 .chart{
-    background-color: orange;
-    width:330px;
+    background-color: rgb(134, 163, 209);
+    width:350px;
     border-width: 10px;
-    border-style: solid;
+    border-style: none;
     border-radius: 5px;
-    border-color: red;
+    border-color: rgb(134, 163, 209);
     
 }
     
 
 /* Set the apperance for a particular chart */
 #Chart1{
-    border-color: blue;   
+    border-color: rgb(134, 163, 209);
+    width:400px ;   
+    border-width: 10px;
+    border-style: none;
+    border-radius: 5px;
+    border-color: rgb(134, 163, 209);
+
 }
