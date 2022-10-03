@@ -1,0 +1,71 @@
+/* Richard Davies, Data Science for Economists */
+
+/* This is my second CSS file */
+
+
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500;1,900&display=swap');
+
+
+
+/* Set the background color for my page: */
+
+/* Book on colour = Joseph Albers - Interaction of Colour */
+
+body{
+    background-color: rgb(232,232,232);
+ }
+
+
+/* Choose the appearance of the tags, h1, h3 and p: */
+h1, p{
+    color:rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+    
+h3{
+    color:rgb(181, 7, 7);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.myWeek1{
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(232,232,232);
+
+      
+    border-width: 3px;
+    border-style: none;
+    border-radius: 10px;
+    border-color: rgb(232,232,232);
+}
+
+li{
+
+    text-align: center;
+}
+
+/* Set the apperance of the class, chart */
+.chart{
+    background-color: rgb(232,232,232);
+    width:350px;
+    border-width: 10px;
+    border-style: none;
+    border-radius: 5px;
+    border-color: rgb(232,232,232);
+    
+}
+    
+
+/* Set the apperance for a particular chart */
+#Chart1{
+    border-color: rgb(232,232,232);
+    width:400px ;   
+    border-width: 10px;
+    border-style: none;
+    border-radius: 5px;
+    border-color: rgb(232,232,232);
+
+}
