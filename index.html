@@ -38,6 +38,12 @@
         <h3>GDP per capita by quarter</h3>
         <p>My second chart is an interactive chart that lets you look at UK GDP per capita per quarter over different time periods from 2005-2022.</p>
         <li><div class="chart" id="Chart2"> </div></li>
+    
+
+        <h3>Week 2:</h3>
+        <h3>IMF Lending Outstanding</h3>
+        <p>This chart shows the total IMF Outstanding Lending in Billions.</p>
+        <li><div class="chart" id="Chart3"> </div></li>
     </div> 
 </body>
 
@@ -46,10 +52,12 @@
     //Define charts:
     var myChart1 = "chart3_Unemployment.json";
     var myChart2 = "chart4_ONSgdp.json";
+    var myChart3 = "chart5_IMF.json"
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3)
 </script>
 
 </html>
