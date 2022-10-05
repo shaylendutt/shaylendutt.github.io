@@ -44,6 +44,9 @@
         <h3>IMF Lending Outstanding</h3>
         <p>This chart shows the total IMF Outstanding Lending in Billions.</p>
         <li><div class="chart" id="Chart3"> </div></li>
+
+        <p>This chart shows the total IMF Outstanding Lending in Billions as a percentage of Global GDP (US$).</p>
+        <li><div class="chart" id="Chart4"> </div></li>
     </div> 
 </body>
 
@@ -53,11 +56,13 @@
     var myChart1 = "chart3_Unemployment.json";
     var myChart2 = "chart4_ONSgdp.json";
     var myChart3 = "chart5_IMF.json"
+    var myChart4 = "chart6_gdpIMF.json"
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
-    vegaEmbed('#Chart3', myChart3)
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
 </script>
 
 </html>

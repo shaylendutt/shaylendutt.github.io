@@ -1,0 +1,40 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+      "text": "IMF lending outstanding ",
+      "subtitle": [
+        "Credit Outstanding to all members, SDRs (billions),",
+        "as a percentage of Global GDP (US$), Source : IMF, World Bank"
+      ],
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+  
+  "data":{"url": "https://raw.githubusercontent.com/shaylendutt/shaylendutt.github.io/main/Data_IMF_Credit_Outstanding.csv"},
+  
+  
+  "height": 300,
+  "width": 330,
+
+  "mark": {
+    "type": "bar",
+    "color": "#02ed8b"},
+
+"encoding": {
+     "x": {
+       "field": "Year",
+       "type": "temporal",
+       "axis": {
+         "title": null,
+         "grid": false,
+         "ticks": false,
+         "labelAngle": 45}},
+
+      "y": {
+        "field": "IMF credit as a percentage of Global GDP",
+        "type": "quantitative",
+        "title": "",
+        "axis": {"grid": false}}
+}
+}
