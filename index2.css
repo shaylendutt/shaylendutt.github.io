@@ -42,9 +42,25 @@ h3{
     border-color: rgb(232,232,232);
 }
 
+.myWeek2{ margin: auto;
+    max-width: 600px;
+    background-color: rgb(232,232,232);
+
+      
+    border-width: 3px;
+    border-style: none;
+    border-radius: 10px;
+    border-color: rgb(232,232,232);
+}
+
 li{
 
-    text-align: center;
+    text-align: center
+
+}
+
+li{
+   list-style-type: none;
 }
 
 /* Set the apperance of the class, chart */
@@ -55,9 +71,17 @@ li{
     border-style: none;
     border-radius: 5px;
     border-color: rgb(232,232,232);
-    
+
 }
     
+#Link1{
+    background-color: rgb(0, 255, 132);
+    color: rgb(000, 000, 000);
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
 
 /* Set the apperance for a particular chart */
 #Chart1{
@@ -69,3 +93,4 @@ li{
     border-color: rgb(232,232,232);
 
 }
+
