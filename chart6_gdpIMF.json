@@ -32,7 +32,7 @@
          "labelAngle": 45}},
 
       "y": {
-        "field": "IMF credit as a percentage of Global GDP",
+        "field": "Lending as a percentage of Global GDP",
         "type": "quantitative",
         "title": "",
         "axis": {"grid": false}}
